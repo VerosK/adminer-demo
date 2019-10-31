@@ -1,0 +1,9 @@
+# group_vars/all/postgresql.yml
+
+postgresql_databases:
+  - name: adminer-demo
+    state: present
+  - name: another-demo
+    state: present
+  - name: old-db
+    state: absent
