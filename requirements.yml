@@ -1,0 +1,2 @@
+- role: geerlingguy.postgresql
+  version: 2.0.0

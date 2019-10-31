@@ -1,0 +1,7 @@
+
+
+- name: Setup adminer
+  hosts: all
+
+  roles:
+   - role: geerlingguy.postgresql
