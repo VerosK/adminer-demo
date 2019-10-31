@@ -5,5 +5,9 @@
     path: '{{ adminer_directory }}'
     state: directory
   
-#- name: Download Adminer file
+- name: Download Adminer file
+  get_url:
+     url: '{{ adminer_download_url }}'
+     dest: '{{ adminer_directory }}/index.php'
+  
 

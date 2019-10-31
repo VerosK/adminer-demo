@@ -3,4 +3,6 @@
 
 adminer_version: '4.3.7'
 adminer_directory: '/opt/adminer-{{ adminer_version }}'
+adminer_download_url: 
+  https://github.com/vrana/adminer/releases/download/v4.7.4/adminer-4.7.4.php
 
