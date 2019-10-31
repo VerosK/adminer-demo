@@ -6,3 +6,5 @@
 
 - name: geerlingguy.apache
   version: 3.1.0
+- name: geerlingguy.php
+  version: 3.7.0
