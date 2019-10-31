@@ -5,3 +5,4 @@
 
   roles:
    - role: geerlingguy.postgresql
+   - role: geerlingguy.apache
