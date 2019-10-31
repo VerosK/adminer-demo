@@ -2,8 +2,13 @@
 
 postgresql_databases:
   - name: adminer-demo
+    owner: adminer
     state: present
   - name: another-demo
     state: present
   - name: old-db
     state: absent
+
+postgresql_users:
+  - name: adminer 
+    password: adminer
