@@ -1,0 +1,6 @@
+# roles/adminer/defaults/main.yml
+#
+
+adminer_version: '4.3.7'
+adminer_directory: '/opt/adminer-{{ adminer_version }}'
+

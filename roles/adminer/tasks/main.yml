@@ -1,0 +1,9 @@
+# roles/adminer/tasks/main.yml
+
+- name: Create Adminer directory
+  file:
+    path: '{{ adminer_directory }}'
+    state: directory
+  
+#- name: Download Adminer file
+
