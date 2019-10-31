@@ -9,5 +9,6 @@
   get_url:
      url: '{{ adminer_download_url }}'
      dest: '{{ adminer_directory }}/index.php'
+     checksum: '{{ adminer_checksum }}'
   
 
