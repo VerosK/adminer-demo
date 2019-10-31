@@ -11,4 +11,9 @@
      dest: '{{ adminer_directory }}/index.php'
      checksum: '{{ adminer_checksum }}'
   
-
+- name: Enable adminer to connect DB
+  seboolean:
+     name: httpd_can_network_connect_db
+     state: yes
+     persistent: yes
+  when: ansible_selinux
